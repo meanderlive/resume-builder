@@ -19,7 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('', include('admin_volt.urls')),
+    path('admin_bolt/', include('admin_volt.urls')),
     path("admin/", admin.site.urls),
     path('', include('portfolio.urls')),
     path('summernote/', include('django_summernote.urls')),

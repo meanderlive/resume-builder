@@ -183,3 +183,6 @@ def logout_user(request):
     
         
 
+# for testing
+def index(request):
+    return render(request, "portfolio/index.html")

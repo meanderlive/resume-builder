@@ -19,4 +19,7 @@ urlpatterns = [
     path('template3/', views.text_template3.as_view(), name="template3"),
     path('template4/', views.text_template4.as_view(), name="template4"),
     path('template5/', views.text_template5.as_view(), name="template5"),
-]
+
+    # for testing
+    path('index/',views.index, name="index"),
+] 
